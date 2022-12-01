@@ -1,0 +1,161 @@
+/*====  VARIABLES ============================ */
+:root {
+  --header-height: 4.5rem;
+
+  /* colors */
+  --hue: 159;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.titulo {
+  position: absolute;
+  width: 15%;
+  left: 43%;
+  margin: 2rem auto;  
+  border-radius: 1rem;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+#nomee {
+  position: absolute;
+  width: 15%;
+  left: 42%;
+  margin: 7rem auto;  
+  border-radius: 1rem;
+  background: blue;
+  transition-duration: 7s;
+}  
+
+.nomeparatext {
+  position: absolute;
+  width: 16%;
+  left: 30%;
+  margin: 7rem auto;  
+  border-radius: 1rem;
+   color: bisque; 
+   transition-duration: 7s;
+}
+
+#email {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  margin: 11rem auto;  
+  border-radius: 1rem;
+   color: bisque;
+   background: blue;
+   transition-duration: 7s;
+}
+
+.email {
+  position: absolute;
+  width: 20%;
+  left: 26%;
+  margin: 10.6rem auto;  
+  border-radius: 1rem;
+   color: bisque; 
+   transition-duration: 7s;
+}
+
+#aniversario {
+  position: absolute;
+  width: 9%;
+  left: 44.9%;
+  margin: 14rem auto;  
+  border-radius: 1rem;
+   color: bisque; 
+   transition-duration: 7s;
+}
+
+.idade {
+  position: absolute;
+  width: 9%;
+  left: 36%;
+  margin: 14rem auto;  
+  border-radius: 1rem;
+   color: bisque;
+   transition-duration: 7s;
+}
+
+#senha {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  margin: 17rem auto;  
+  border-radius: 1rem;
+   color: bisque; 
+   background: blue;
+   transition-duration: 7s;
+}
+
+.senha {
+  position: absolute;
+  width: 20%;
+  left: 25.7%;
+  margin: 17rem auto;  
+  border-radius: 1rem;
+   color: bisque; 
+   transition-duration: 7s;
+}
+
+#confirmasenha {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  margin: 19.9rem auto;  
+  border-radius: 1rem;
+   color: bisque; 
+   background: blue;
+   transition-duration: 7s;
+}
+
+.confirmasenha {
+  position: absolute;
+  width: 20%;
+  left: 20%;
+  margin: 19.9rem auto;  
+  border-radius: 1rem;
+   color: bisque; 
+   transition-duration: 7s;
+}
+
+.Botao {
+  position: absolute;
+  width: 15%;
+  left: 42.5%;
+  margin: -36rem auto;  
+  border-radius: 1rem;
+   background-color: var(--base-color);
+   text-decoration: none;
+   border-bottom: 20rem;
+   height: 5%;
+   background: blue;
+   transition-duration: 5s;
+}
+   
+

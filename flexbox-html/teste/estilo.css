@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  
+}
+
+.sec1 {
+  background-color: rgb(47, 47, 121);
+  width: 50%;
+  height: 100vh;
+}
+
+.sec2 {
+  background-color: rgb(121, 47, 47);
+  width: 50%;
+  height: 100vh;
+  background-image: url(3874706374_b31293be33_b.jpg);
+}
+
+
+img {
+ 
+  height: 100%;
+  width: 100%;
+}

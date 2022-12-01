@@ -1,0 +1,5 @@
+/*ordem
+
+
+font style (Estilo), font weight(Peso), font size(tamanho), font family (fonte)
+/*

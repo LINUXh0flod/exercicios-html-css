@@ -1,0 +1,49 @@
+Para fazer uma animaçao ao passar o mouse em cima do elemento, basta dar um (nome da propiedade):hover
+
+exemplo 
+
+div:hover {
+  background-color: yellow;
+}
+
+ai quando passar o mouse em cima do que vai estar na div, ela ira ficar yellow
+
+
+Para colocar os elementos tudo em uma linha so, use o display inline block
+
+exemplo
+
+div {
+  background-color: lightgray;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  display: inline-block;
+
+
+COMO FAZER ALGO APARECER  somente quando passar o mouse em cima
+
+Basta usar o hover 
+
+exemplo
+
+  <div>
+passe o mouse aqui
+<p>TEXT ESCONDIDO</p>  
+  </div>
+
+
+div > p {
+  display: none;      (ISSO IRA ESCONDER O TEXTO DENTRO DO P)
+}
+
+
+div:hover > p {
+  display: block;   (ISSO IRA FAZER ELE APARECER SOMENTE QUANDO PASSA O MOUSE EM CIMA
+}
+
+
+Para fazer algo fica sublinhado ou mudar de cor ou fazer uma animaçao ao passar o mouse em cima basta
+
+usar o hover

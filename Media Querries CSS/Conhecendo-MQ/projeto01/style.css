@@ -1,0 +1,79 @@
+h1 {
+  color: red;
+}
+
+/* screen, print, speech, all*/
+
+
+/*QUANDO A LARGURA FOR MENOR QUE 600PX ELE VAI FICAR AZUL
+/* 2 - sintaxe */
+@media screen and (max-width: 600px) {
+h1 {
+  color: blue;
+}
+}
+
+
+
+/*3 - Outros modos*/
+/*QUANDO TIRAR UM PRINT E A LARGURA DO LAYOUT ESTIVER MENOR QUE 600PX NO MOMENTO DO PRINT ELE VAI FICAR VERDE*/
+@media print and (max-width: 600px) {
+  h1 {
+    color: green;
+  }
+}
+
+
+
+/*4 - Todos os modos */
+/*ELE VAI FICA ROXO QUANDO A LARGURA FOR MENOR QUE 700PX EM TODAS AS FORMAS (ALL)*/
+@media (max-width: 700px) {
+  h2 {
+    color: purple;
+  }
+}
+
+/* 5 - Mobile first*/
+/*min-width > max-width*/
+@media (min-width: 600px) {
+  h2 {
+    color: teal;
+  }
+}
+
+
+/*6 - AND na media query*/
+/*ELE VAI FICAR COM O FONT EM 3EM QUANDO A LARGURA ESTIVER ENTRE 600PX E 800PX*/
+@media (min-width: 600px) and (max-width: 800px) {
+  h3 {
+    font-size: 3em;
+  }
+}
+
+/* 7 - Orientation */
+/*A COR VAI FICAR MARROM QUANDO O DISPOSITIVO ESTIVER NA ORIZONTAL*/
+@media (orientation:landscape) {
+  h3 {
+    color: brown;
+  }
+}
+
+/* 8 - OR na media query*/
+/*Ele vai mudar o fontzie, se a largura for menor que 200 ou se o dispositivo estiver na vertical, e como um (OR), se uma das opçoes for verdadeira ele aplica*/
+@media (max-width:600px), (orientation:landscape)  {
+h3 {
+  font-size:4em ;
+}
+}
+
+/*9 - Cuidado ao aplicar MQ*/ 
+@media (min-width:600px) {
+  h4 {
+    color: red;
+  }
+}
+
+/* 10 - Breakpoints */
+h5 {
+  color: aqua;
+}

@@ -1,0 +1,62 @@
+USE A TAG ol + li para fazer listas numeradas
+
+exp:
+
+<ol>
+  <li>
+  Acordar
+  </li>
+  <li>
+    Tomar cáfe
+  </li>
+  <li>
+    Escover os dentes
+  </li>
+  <li>
+    Ir para a faculdade
+  </li>
+  <li>
+    Ir almoça
+  </li>
+  <li>
+    Ir para o trabalho
+  </li>
+  <li>
+  Voltar para a casa
+</li>
+</ol>
+
+( nao e obrigatorio da </li>)
+
+voce pode usar
+
+<ol type="1" start="NUMERO QUE DESEJA COMEÇAR A LSITA">
+
+=============================================================
+
+use a tag UL para listas nao numeradas 
+
+exp:
+
+ <ul>
+  <li>
+    pao
+  </li>
+  <li>
+    arroz
+  </li>
+  <li>
+    feijao
+  </li>
+  <li>
+    pimenta
+  </li>
+  <li>
+    pastel
+  </li>
+</ul>
+
+
+( tambem nao e obrigatorio o </li>)
+
+voce pode usar o type tambem exmp: ul type="-"

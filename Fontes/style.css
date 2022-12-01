@@ -1,0 +1,22 @@
+body {
+  font-family: 'work Sans'Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+  /*
+  medidas absolutas
+  cm, mm, in, px, pt, pc
+
+  medidas relativas
+  em, ex, rem, vw, vh, %
+16px geralmente e igual ah um 1em
+  */
+  h1 {
+    font: italic bolder 3em arial  sans-serif;
+}
+/*ordem
+font style, font weight, font size, font family
+*/
+  
+h2 {
+  font: bold 2em arial
+}

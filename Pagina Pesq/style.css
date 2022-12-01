@@ -1,0 +1,94 @@
+/*reset*/
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/*variables*/
+:root {
+  --header-height: 4.5rem;
+  
+  /* colors */
+  --hue: 360;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 60% 45%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0, 0%, 98%);
+}
+
+  .logo {
+    font-family:cursive ;
+    position: relative;
+    left: 41rem;
+    margin-bottom: 1rem;
+      margin: 1rem auto;
+  
+  }
+
+#input {
+  position: relative;
+  align-items: center;
+  left: 41rem;
+  position: absolute;
+  margin: 14.8rem auto;  
+  border-radius: 1rem;
+  z-index: 10;
+  
+ }
+
+/*tamanho da imagem */
+img {
+  width: 100%;
+  position: relative;
+  position: absolute;
+
+}
+.h2 {
+position: relative;
+  align-items: center;
+  right: 54rem;
+  position: absolute;
+  margin: 14.10rem auto;  
+  border-radius: 1rem;
+  z-index: 10;
+  font-family:cursive ;
+ }
+
+
+ .text {
+  position: relative;
+  margin: 32rem;
+  font-family: cursive;
+  text-decoration: none;
+  
+ }
+
+
+ /*botao*/
+.logo {
+  background: var(--base-color);
+  color: var(--text-color-light);
+height: 3.5rem;
+display: inline-flex;
+align-items: center;
+padding: 0 2rem;
+border-radius: 0.25rem;
+font: 500 1rem "DM Sans" , sans-serif;
+transition: backgroud 0.3s;
+}
+
+.pai {
+  background-color: black;
+}
+
+
+ 
+ 
+

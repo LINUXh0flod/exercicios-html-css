@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popu {
+  width: 50x;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+  position: relative;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+thead > tr > th {
+  position: sticky;
+  top: -1px;
+  background-color: #383838;
+}
+
+tbody > tr:nth-child(2n) {
+background-color: lightgray;
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+thead, tfoot {
+  background-color: #383838;
+  color: azure;
+}
+
+.num {
+  text-align: right;
+}

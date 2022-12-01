@@ -1,0 +1,9 @@
+Basta baixa uma musica ou audio e por dentro da pasta e dps da um /audio
+
+<h1>
+    Reproduzir audio
+  </h1>
+  <p>Vamos aprender a reproduzir audios em HTML5</p>
+  <audio src="ytmp3free.cc_90mh-trefuego-ig-ismokefuego-youtubemp3free.org.mp3" controls>Autoplay</audio>
+
+Caso nao funciona e so bota o CONTROLS

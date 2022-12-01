@@ -1,0 +1,43 @@
+Para por as fontes basta entrar no site
+
+https://www.dafont.com/pt/ninja-naruto.font
+
+pega a fonte de sua preferencia
+
+e depois instala ela no cod usando o @font-face 
+
+de uma olhada no codigo
+
+@font-face {
+  font-family: 'naruto';
+  src: url('njnaruto.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  /*
+  Tipos de format()
+  -opentype (otf
+  -truetype (ttf)                (Nao se esqueca dos formatos)
+  -embedded-opentype
+  -trupetype-aat
+  -svg
+
+  */
+}s
+
+body  {
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+h1 {
+  font-family: 'naruto', Times, serif;
+}
+
+E voce tambem pode usar a extençao (fonts ninja) para ver quais fonte um site esta usando
+
+E para identificar fontes de uma imagen use os sites
+
+https://www.whatfontis.com/
+
+https://www.fontsquirrel.com/
+
+https://www.myfonts.com/

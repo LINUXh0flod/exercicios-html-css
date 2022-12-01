@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.area {
+  background-color: blue;
+  width: 50vw;
+  height: 40vh;
+}
+.area2 {
+  background-color: rgb(255, 0, 0);
+  width: 50vw;
+  height: 40vh;
+}
+
+@media (max-width:600px) {
+main {
+  display: grid;
+}
+}

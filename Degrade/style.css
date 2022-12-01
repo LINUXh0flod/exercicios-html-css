@@ -1,0 +1,36 @@
+* {
+ 
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to left, blue, rgba(106, 0, 138, 0.89), rgb(61, 52, 192));
+}
+
+main {
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+width: 550px;
+overflow: hidden;
+}
+
+div {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+}
+
+h1 {
+  color: blue;
+text-align:  center;
+}
+
+.ml {
+  color: rgba(3, 2, 3, 0.89),;
+}
+
+p {
+text-align: justify;
+}

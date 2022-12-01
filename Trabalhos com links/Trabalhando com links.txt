@@ -1,0 +1,29 @@
+Use para sobrepor um link ao seu site, quando o usuario clika em um link dentro do site 
+ele e encaminhado para outro
+
+
+ <h1>Usando Links externos</h1>
+  <p>Voce pode acessar o meu <a href="https://www.instagram.com/linux.secc/">Repositorio publico no GitHub</a></p>
+
+e voce pode usar TARGET="BLANK"-REL"EXTERNAL" para fazer que, quando o usuario clika no link
+a sua pagina nao seja fechada
+
+<h1>Usando Links externos</h1>
+  <p>Voce pode acessar o meu <a href="https://www.instagram.com/linux.secc/" target="_blank"rel="external">Repositorio publico no GitHub</a></
+
+Para pode acessa um link do seu propio site crie um novo arquivo tipo "pagina002.html" 
+e depois e so colocar no lugar do link 
+
+<h2>Usando links internos</h2>
+  <p>Esta é a segunda pagina do meu site. Se voce quiser, pode acessar tambem a minha <a href="pag022.html">Segunda pagina</a></p>
+
+
+Para direcionar o usuario diretamente para um dowload ou para uma pagina de dowload
+
+crie uma pasta com o dowload e depois e so coloca a pasta no lugar do link
+
+<h1>Links para dowloads</h1>
+  <ul>
+    <li><a href="livro/743384.pdf" >Baixar o livro em pdf</a></li>
+    <li><a href="#">Livro compactado em zip</a></li>
+  </ul>
